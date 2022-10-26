@@ -1,0 +1,8 @@
+[[kafka_consume]]
+    consume_from = ""
+    zkpoints = ""
+    topic = ""
+    group = ""
+    initoffset = -1 # [-1:获取最新offset, -2:获取最旧offset]
+    process_timeout = 60 # partition上提交offset的最大超时时间,默认60s
+    commit_interval = 10 # 设置自动提交offset间隔,默认10s

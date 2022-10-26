@@ -1,0 +1,12 @@
+[[redis]]
+    addr="127.0.0.1:6379"
+    password=""
+    db=1
+    max_active=500
+    min_idle=500
+    max_idle=500
+    idle_timeout=1000
+    connect_timeout=100
+    read_timeout=500
+    write_timeout=500
+    database=1
